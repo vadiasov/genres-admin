@@ -1,0 +1,18 @@
+{
+    "name": "vadiasov/roles",
+    "description": "Package serve plain genres (music e.g.)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadis",
+            "email": "volodymyr.vadiasov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vadiasov\\GenresAdmin\\": "src"
+        }
+    },
+    "require": {}
+}
