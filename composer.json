@@ -1,6 +1,6 @@
 {
-    "name": "vadiasov/roles",
-    "description": "Package serve plain genres (music e.g.)",
+    "name": "vadiasov/genres-admin",
+    "description": "The Package serves plain genres (music e.g.)",
     "type": "project",
     "license": "MIT",
     "authors": [
