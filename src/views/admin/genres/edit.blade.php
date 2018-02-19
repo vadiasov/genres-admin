@@ -60,6 +60,15 @@
                                                placeholder="Slug (only letters, digits)" value="{{ old('slug') ? old('slug') : $genre->slug }}">
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Tag</label>
+
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="tag"
+                                               placeholder="Tag (only letters, digits, defis, apostrophe, space)"
+                                               value="{{ old('tag') ? old('tag') : $genre->tag }}">
+                                    </div>
+                                </div>
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">

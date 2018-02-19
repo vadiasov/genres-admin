@@ -17,6 +17,7 @@ class CreateGenresTable extends Migration
             $table->increments('id');
             $table->string('name', 50);
             $table->string('slug', 20);
+            $table->string('tag', 20);
             $table->timestamps();
         });
     }

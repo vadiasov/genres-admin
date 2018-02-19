@@ -49,6 +49,7 @@
                                     <th>ID</th>
                                     <th>Name</th>
                                     <th>Slug</th>
+                                    <th>Tag</th>
                                     <th>Created At</th>
                                     <th>Updated At</th>
                                     <th>Actions</th>
@@ -60,6 +61,7 @@
                                         <td>{{ $genre->id }}</td>
                                         <td>{{ $genre->name }}</td>
                                         <td>{{ $genre->slug }}</td>
+                                        <td>{{ $genre->tag }}</td>
                                         <td>{{ $genre->created_at }}</td>
                                         <td>{{ $genre->updated_at }}</td>
                                         <td>
@@ -76,6 +78,7 @@
                                     <th>ID</th>
                                     <th>Name</th>
                                     <th>Slug</th>
+                                    <th>Tag</th>
                                     <th>Created At</th>
                                     <th>Updated At</th>
                                     <th>Actions</th>
