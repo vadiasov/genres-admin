@@ -1,7 +1,7 @@
 {
     "name": "vadiasov/genres-admin",
     "description": "The Package serves plain genres (music e.g.)",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
