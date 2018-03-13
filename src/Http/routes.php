@@ -8,7 +8,7 @@
  */
 
 // src/Http/routes.php
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web', 'admin']], function () {
     Route::get('admin/genres', 'Vadiasov\GenresAdmin\Http\GenresController@index')->name('admin/genres');
     Route::get('admin/genres/create', 'Vadiasov\GenresAdmin\Http\GenresController@create')->name('admin/genres/create');
     Route::post('admin/genres/create', 'Vadiasov\GenresAdmin\Http\GenresController@store');
